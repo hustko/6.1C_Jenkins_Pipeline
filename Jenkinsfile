@@ -15,7 +15,7 @@ pipeline{
                 success{
                     mail to: "hustperera@gmail.com",
                     subject: "Unit and Integration Test status email",
-                    body: "Unit and Integration Test was successful"
+                    body: "Unit and Integration Test was successful, the logs are attached herewith."
                 }
             }
         }
