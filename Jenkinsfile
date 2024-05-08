@@ -1,10 +1,5 @@
 pipeline{
     agent any
-    environment{
-        DIRECTORY_PATH = "D:\'Trimester 1 2024'\'Professional Practise SIT223'\'Week 5'"
-        TESTING_ENVIRONMENT = "test_enviornment"
-        PRODUCTION_ENVIRONMENT = "Senara Perera"
-    }
     stages{
         stage('Build'){
             steps{
