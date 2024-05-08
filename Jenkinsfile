@@ -31,13 +31,13 @@ pipeline{
         }
         stage('Security Scan'){
             steps{
-                echo"Performing security scan - OWASP Dependancy-Check"
+                echo"Performing security scan - OWASP Dependency-Check"
             }
             post{
                 success{
                     mail to: "hustperera@gmail.com",
                     subject: "Security status email",
-                    body: "Security was successful"
+                    body: "Security scan was successful"
                 }
             }
         }
