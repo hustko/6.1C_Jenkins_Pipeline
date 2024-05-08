@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo"Building code with automation tool - Gradle"
+                echo"Building code with automation tool - Grade"
             }
         }
         stage('Unit and Integration Test'){
